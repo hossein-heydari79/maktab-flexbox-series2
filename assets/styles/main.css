@@ -45,7 +45,7 @@ img {
     border: none;
     outline: none;
     width: 230px;
-    padding: 15px 0;
+    padding: 12px 0;
     border-bottom: 2px solid lightgray;
     margin-top: 50px;
 }
@@ -54,7 +54,7 @@ img {
     border: none;
     outline: none;
     width: 230px;
-    padding: 15px 0;
+    padding: 12px 0;
     border-bottom: 2px solid lightgray;
     margin-top: 25px;
 }
@@ -62,4 +62,34 @@ img {
 .pass::placeholder,
 .username::placeholder {
     color: gray;
+}
+
+.btn {
+    width: 230px;
+    margin-top: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #6FB554;
+    font-size: 11px;
+    box-shadow: #6FB554 0px 0px 35px -8px;
+}
+
+.footer {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 0 15px;
+    /* background-color: red; */
+}
+
+ul li {
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 8px;
 }
