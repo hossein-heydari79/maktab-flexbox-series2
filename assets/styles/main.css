@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "wordsans";
+    src: url("../fonts/WorkSans.ttf")format("truetype");
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(211, 211, 211, 0.267);
+    font-family: "wordsans";
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 45%;
+    height: 450px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-image: url("../images/background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
