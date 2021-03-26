@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "wordsans";
+    src: url("../fonts/WorkSans.ttf");
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "wordsans";
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/backgroung-3.jpg");
+    opacity: 0.2;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, #0847f9, #5f4be1, #7a53cb, #885db6, #8d69a4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main img {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* .user {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
