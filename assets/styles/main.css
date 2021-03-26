@@ -102,3 +102,10 @@ ul li {
 ul li:hover {
     text-decoration: underline;
 }
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
