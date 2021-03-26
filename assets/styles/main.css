@@ -60,10 +60,49 @@ h2 {
     margin-top: 20px;
 }
 
-
-/* .user {
-    width: 80%;
+.user {
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+    /* background-color: red; */
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.user input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    padding: 10px 0;
+    background: transparent;
+    height: 100%;
+}
+
+.user input::placeholder {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+.user input:focus {
+    color: white;
+}
+
+.rem {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.rem label {
+    font-size: 12px;
+    color: white;
+}
+
+.rem input {
+    width: 12px;
+    height: 12px;
+}
