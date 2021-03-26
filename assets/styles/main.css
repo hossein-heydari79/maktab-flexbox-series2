@@ -52,7 +52,7 @@ h1 {
 }
 
 .user {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,4 +76,71 @@ h1 {
 .user label {
     color: gray;
     font-size: 14px;
+}
+
+form {
+    width: 70%;
+    /* background-color: red; */
+}
+
+.footer {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.main-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.remember label {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+
+.remember input {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    outline: none;
+}
+
+.forget a {
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+
+.forget a:hover,
+.remember label:hover {
+    text-decoration: underline;
+}
+
+.div-btn {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.div-btn div {
+    width: 78%;
+}
+
+.div-btn div button {
+    width: 125px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(32, 145, 32, 0.76);
+    color: white;
+    cursor: pointer;
 }
