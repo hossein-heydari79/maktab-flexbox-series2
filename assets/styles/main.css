@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "wordsansi";
+    src: url("../fonts/WorkSans-Italic.ttf")format("truetype");
+}
+
+@font-face {
+    font-family: "wordsans";
+    src: url("../fonts/WorkSans.ttf")format("truetype");
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "wordsans";
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 170px;
+}
+
+.header>div {
+    width: 120px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "wordsans";
+}
+
+.div-header-icon a:nth-child(1) {
+    color: #1547a6;
+}
+
+.div-header-icon a:nth-child(2) {
+    color: #479fef;
+}
+
+.div-header-icon a:nth-child(3) {
+    color: #e060b8;
+}
+
+.div-header-icon a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-header-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search div {
+    background-color: #ef546c;
+    padding: 5px 8px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 42px -9px #000000;
+}
+
+.search div i {
+    color: white;
+}
+
+.title h1 span {
+    color: #ef546c;
+}
+
+.menu {
+    width: 50%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li {
+    font-size: 12px;
+}
+
+.menu ul li i {
+    font-size: 8px;
+    margin: 0 5px;
+}
+
+.menu ul a {
+    color: black;
+}
+
+.menu ul a:nth-child(1) {
+    color: #ef546c;
+}
+
+.gotop {
+    background-color: #ef546c;
+    padding: 10px 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gotop:hover {
+    text-decoration: none;
+}
+
+.gotop span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gotop i {
+    font-size: 12px;
+    color: white;
+}
